@@ -7,7 +7,8 @@
 //
 
 #import "UCViewController.h"
-
+#import <UCRouter.h>
+#import "UCModuleAProtocol.h"
 @interface UCViewController ()
 
 @end
@@ -20,10 +21,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/// 远端url调用
+- (IBAction)jumpUrl:(id)sender {
+    [[UCRouter shared] routeUrlStr:@"demo://home/vc?aha=123" navgationType:pushWithAnimation params:@{@"123": @"321"}];
+}
+/// 本地跨组件调用
+- (IBAction)jumpNative:(id)sender {
+    id<UCModuleAProtocol> provider = [[UCRouter shared] getProviderWithProtocol:@protocol(UCModuleAProtocol)];
+    UIViewController *vc = [provider getModuleAController];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

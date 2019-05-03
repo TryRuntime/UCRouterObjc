@@ -7,12 +7,17 @@
 //
 
 #import "UCAppDelegate.h"
-
+#import <UCRouter.h>
+#import "UCNavgationDelegate.h"
+#import "UCURLFilterDelegate.h"
 @implementation UCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[UCRouter shared] setNavgationAndUrlFilter:[UCNavgationDelegate new]
+                                 filterDelegate:[UCURLFilterDelegate new]];
     return YES;
 }
 

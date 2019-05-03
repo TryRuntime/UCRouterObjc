@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UCRouterObjc'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UCRouterObjc.'
+  s.summary          = '一个Objc router'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Link913/UCRouterObjc'
+  s.homepage         = 'https://github.com/TryRuntime/UCRouterObjc'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Link913' => 'fanyang_32012@outlook.com' }
-  s.source           = { :git => 'https://github.com/Link913/UCRouterObjc.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TryRuntime/UCRouterObjc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
