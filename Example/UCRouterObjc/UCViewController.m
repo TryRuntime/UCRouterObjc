@@ -21,9 +21,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+/// 远端url调用
 - (IBAction)jumpUrl:(id)sender {
     [[UCRouter shared] routeUrlStr:@"demo://home/vc?aha=123" navgationType:pushWithAnimation params:@{@"123": @"321"}];
 }
+/// 本地跨组件调用
 - (IBAction)jumpNative:(id)sender {
     id<UCModuleAProtocol> provider = [[UCRouter shared] getProviderWithProtocol:@protocol(UCModuleAProtocol)];
     UIViewController *vc = [provider getModuleAController];
