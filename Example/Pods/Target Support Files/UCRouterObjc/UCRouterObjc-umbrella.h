@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UCRouter.h"
+#import "UCRouterProtocol.h"
+#import "UCRouterUrlParser.h"
 
 FOUNDATION_EXPORT double UCRouterObjcVersionNumber;
 FOUNDATION_EXPORT const unsigned char UCRouterObjcVersionString[];

@@ -13,6 +13,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    UIViewController *vc;
+    [vc presentViewController:vc animated:YES completion:nil];
     return YES;
 }
 
