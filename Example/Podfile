@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UCRouterObjc_Example' do
+  pod 'UCRouterObjc', :path => '../'
+
+  target 'UCRouterObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

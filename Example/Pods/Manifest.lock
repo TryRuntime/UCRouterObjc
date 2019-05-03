@@ -1,0 +1,16 @@
+PODS:
+  - UCRouterObjc (0.1.0)
+
+DEPENDENCIES:
+  - UCRouterObjc (from `../`)
+
+EXTERNAL SOURCES:
+  UCRouterObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UCRouterObjc: 6bab39c26a1c189f545e5dbc384b950465de609b
+
+PODFILE CHECKSUM: 710bc51122cf21c1237e9a57043c11f87726a2bc
+
+COCOAPODS: 1.6.1

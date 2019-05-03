@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061D8A144B8F1F7A746E19CAD7075CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3BB038BD2D480D3ED66324D3904BCF3D /* Pods-UCRouterObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0B0DBCE7D69324D92515478BE3B5B0 /* Pods-UCRouterObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4941BF3F464ECD8B922467886734FE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6A378BCF77B3A864ED224344675C7FF7 /* UCRouterObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E910C562E1B4EF46323726D4BBDBB09E /* UCRouterObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E2904AB7FEEBE94108014C81FE5126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A1AE9E7739ED1D67FA64BF4129B1AA7B /* Pods-UCRouterObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8AE5C1377C4F4896F90D05F3A995C /* Pods-UCRouterObjc_Example-dummy.m */; };
+		DC38F9F4CD139825D5A9FB06D4CF8972 /* UCRouterObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D84F631B720DBF656C6881DA03F49 /* UCRouterObjc-dummy.m */; };
+		EB362E7DCB31E8013EC799DFC45658A4 /* Pods-UCRouterObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3064AC9A547314A705A254AA118387 /* Pods-UCRouterObjc_Tests-dummy.m */; };
+		FA0C810DC5EA12DF609385B8AE281F70 /* Pods-UCRouterObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C688EC17DBAE358E5DD36FC80073BBA3 /* Pods-UCRouterObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C002DBA3B875F1D0855CE6C57FF5B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A88F47B573BEF5E391356807B5FA1A;
+			remoteInfo = UCRouterObjc;
+		};
+		7E19C551B154F7D990F09073F146E837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D566E27628582C8B28993D9F7B55A3;
+			remoteInfo = "Pods-UCRouterObjc_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077EDD7300813C81949B454AF144AC31 /* Pods-UCRouterObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRouterObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		124E107079C1E0F04D1A1B6B9B4E209D /* Pods-UCRouterObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRouterObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B22F4EA0CE638E9377E786678136B84 /* Pods-UCRouterObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		252E7EAB746DADCA22EED71BCFC1E2FC /* UCRouterObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRouterObjc.modulemap; sourceTree = "<group>"; };
+		2E913BF84A9FEA0CA57B4905501E53CB /* UCRouterObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UCRouterObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2FCC31E24415AECC5E669EDE5A0D74F4 /* Pods_UCRouterObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRouterObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D10B40C7D74B98FDF134A74CCA2244B /* Pods-UCRouterObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46B51D23D9011B30B4C589D7569F2080 /* Pods-UCRouterObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B4AC27C50A287E0022B517B01A52C7B /* Pods-UCRouterObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterObjc_Example-Info.plist"; sourceTree = "<group>"; };
+		553F5B53E955B950BFC05162582216C5 /* Pods-UCRouterObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		675173520F1A123081BA0579D1188FBB /* Pods-UCRouterObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRouterObjc_Example.modulemap"; sourceTree = "<group>"; };
+		733CD6ED5C0E205A1049B86E50ED052B /* Pods_UCRouterObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRouterObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		786D84F631B720DBF656C6881DA03F49 /* UCRouterObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCRouterObjc-dummy.m"; sourceTree = "<group>"; };
+		8649BB397B780DFF0253CA62043974EB /* UCRouterObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UCRouterObjc-Info.plist"; sourceTree = "<group>"; };
+		89F90FE60C1F689E45420B18700275F1 /* Pods-UCRouterObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRouterObjc_Tests.modulemap"; sourceTree = "<group>"; };
+		9B88EBA6D2EB3DCD037AF798D6E50822 /* Pods-UCRouterObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0B0DBCE7D69324D92515478BE3B5B0 /* Pods-UCRouterObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRouterObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E8AE5C1377C4F4896F90D05F3A995C /* Pods-UCRouterObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRouterObjc_Example-dummy.m"; sourceTree = "<group>"; };
+		AD9D9FAA3F09CA9FD122B3BE67C03210 /* UCRouterObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRouterObjc.xcconfig; sourceTree = "<group>"; };
+		B3F8F7DCEFCE7D3C59D41A08FD45DFD1 /* Pods-UCRouterObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C13F3CC9EB51906DF95C25E0F509650A /* UCRouterObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCRouterObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C688EC17DBAE358E5DD36FC80073BBA3 /* Pods-UCRouterObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRouterObjc_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD8218FD5AD726C730BF25854172792 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD1FEDD9904EEA18758237081AD27956 /* UCRouterObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterObjc-prefix.pch"; sourceTree = "<group>"; };
+		CD3064AC9A547314A705A254AA118387 /* Pods-UCRouterObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRouterObjc_Tests-dummy.m"; sourceTree = "<group>"; };
+		D30D4784932836F61795FEA7F651E528 /* Pods-UCRouterObjc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterObjc_Tests-Info.plist"; sourceTree = "<group>"; };
+		DA65FCB17BB0A6CEC7F4F95E12FE4E66 /* Pods-UCRouterObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRouterObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E910C562E1B4EF46323726D4BBDBB09E /* UCRouterObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterObjc-umbrella.h"; sourceTree = "<group>"; };
+		F9097721FE90A2EE1679E03737C6B87E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616DAA0ED625AF15C3EC1DD9BC54335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4941BF3F464ECD8B922467886734FE6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA1DDFD187D14E42DB155540609EBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2904AB7FEEBE94108014C81FE5126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E667BEFD0B72F0C99C7D8FD96D497AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8A144B8F1F7A746E19CAD7075CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D26CF553224E0EF6C87005C25A1101 /* Pods-UCRouterObjc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89F90FE60C1F689E45420B18700275F1 /* Pods-UCRouterObjc_Tests.modulemap */,
+				DA65FCB17BB0A6CEC7F4F95E12FE4E66 /* Pods-UCRouterObjc_Tests-acknowledgements.markdown */,
+				B3F8F7DCEFCE7D3C59D41A08FD45DFD1 /* Pods-UCRouterObjc_Tests-acknowledgements.plist */,
+				CD3064AC9A547314A705A254AA118387 /* Pods-UCRouterObjc_Tests-dummy.m */,
+				D30D4784932836F61795FEA7F651E528 /* Pods-UCRouterObjc_Tests-Info.plist */,
+				9C0B0DBCE7D69324D92515478BE3B5B0 /* Pods-UCRouterObjc_Tests-umbrella.h */,
+				9B88EBA6D2EB3DCD037AF798D6E50822 /* Pods-UCRouterObjc_Tests.debug.xcconfig */,
+				46B51D23D9011B30B4C589D7569F2080 /* Pods-UCRouterObjc_Tests.release.xcconfig */,
+			);
+			name = "Pods-UCRouterObjc_Tests";
+			path = "Target Support Files/Pods-UCRouterObjc_Tests";
+			sourceTree = "<group>";
+		};
+		3097B4B568E9C6AC971943D565D32701 /* UCRouterObjc */ = {
+			isa = PBXGroup;
+			children = (
+				8D63A046F993CD46434C916D592848A7 /* Pod */,
+				369B9DA65E25D6D26BCF53B2E197C38F /* Support Files */,
+			);
+			name = UCRouterObjc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		369B9DA65E25D6D26BCF53B2E197C38F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				252E7EAB746DADCA22EED71BCFC1E2FC /* UCRouterObjc.modulemap */,
+				AD9D9FAA3F09CA9FD122B3BE67C03210 /* UCRouterObjc.xcconfig */,
+				786D84F631B720DBF656C6881DA03F49 /* UCRouterObjc-dummy.m */,
+				8649BB397B780DFF0253CA62043974EB /* UCRouterObjc-Info.plist */,
+				CD1FEDD9904EEA18758237081AD27956 /* UCRouterObjc-prefix.pch */,
+				E910C562E1B4EF46323726D4BBDBB09E /* UCRouterObjc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UCRouterObjc";
+			sourceTree = "<group>";
+		};
+		4ACBA70FF647B84CE3BD944DEB0AA07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733CD6ED5C0E205A1049B86E50ED052B /* Pods_UCRouterObjc_Example.framework */,
+				2FCC31E24415AECC5E669EDE5A0D74F4 /* Pods_UCRouterObjc_Tests.framework */,
+				C13F3CC9EB51906DF95C25E0F509650A /* UCRouterObjc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D63A046F993CD46434C916D592848A7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9097721FE90A2EE1679E03737C6B87E /* LICENSE */,
+				CCD8218FD5AD726C730BF25854172792 /* README.md */,
+				2E913BF84A9FEA0CA57B4905501E53CB /* UCRouterObjc.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B441BB0E2E3835EBA92BF7A03DF84A8A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3097B4B568E9C6AC971943D565D32701 /* UCRouterObjc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C6B6AF491A77746A7FAFB75FFC1E32EF /* Pods-UCRouterObjc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				675173520F1A123081BA0579D1188FBB /* Pods-UCRouterObjc_Example.modulemap */,
+				124E107079C1E0F04D1A1B6B9B4E209D /* Pods-UCRouterObjc_Example-acknowledgements.markdown */,
+				3D10B40C7D74B98FDF134A74CCA2244B /* Pods-UCRouterObjc_Example-acknowledgements.plist */,
+				A8E8AE5C1377C4F4896F90D05F3A995C /* Pods-UCRouterObjc_Example-dummy.m */,
+				077EDD7300813C81949B454AF144AC31 /* Pods-UCRouterObjc_Example-frameworks.sh */,
+				4B4AC27C50A287E0022B517B01A52C7B /* Pods-UCRouterObjc_Example-Info.plist */,
+				C688EC17DBAE358E5DD36FC80073BBA3 /* Pods-UCRouterObjc_Example-umbrella.h */,
+				553F5B53E955B950BFC05162582216C5 /* Pods-UCRouterObjc_Example.debug.xcconfig */,
+				1B22F4EA0CE638E9377E786678136B84 /* Pods-UCRouterObjc_Example.release.xcconfig */,
+			);
+			name = "Pods-UCRouterObjc_Example";
+			path = "Target Support Files/Pods-UCRouterObjc_Example";
+			sourceTree = "<group>";
+		};
+		C94ABD07D8800EDEB2A628108036CA91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B6AF491A77746A7FAFB75FFC1E32EF /* Pods-UCRouterObjc_Example */,
+				06D26CF553224E0EF6C87005C25A1101 /* Pods-UCRouterObjc_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B441BB0E2E3835EBA92BF7A03DF84A8A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4ACBA70FF647B84CE3BD944DEB0AA07C /* Products */,
+				C94ABD07D8800EDEB2A628108036CA91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		360514CDD5D50E33043C68662CF6B040 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C810DC5EA12DF609385B8AE281F70 /* Pods-UCRouterObjc_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607F655BDFB3FBC5BDB470EB22DF0189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB038BD2D480D3ED66324D3904BCF3D /* Pods-UCRouterObjc_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFA25B041926A0AD186435AD2FB36B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A378BCF77B3A864ED224344675C7FF7 /* UCRouterObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50D566E27628582C8B28993D9F7B55A3 /* Pods-UCRouterObjc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92574D781AAC03315E2C7D4D7F5D0F30 /* Build configuration list for PBXNativeTarget "Pods-UCRouterObjc_Example" */;
+			buildPhases = (
+				360514CDD5D50E33043C68662CF6B040 /* Headers */,
+				A370230856DDCF280DDC4FA755A519FB /* Sources */,
+				E667BEFD0B72F0C99C7D8FD96D497AFD /* Frameworks */,
+				F6CD441C6E65B40B0077C597817B7CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0FBE6F2F16D971669FD0B8DBBEA915 /* PBXTargetDependency */,
+			);
+			name = "Pods-UCRouterObjc_Example";
+			productName = "Pods-UCRouterObjc_Example";
+			productReference = 733CD6ED5C0E205A1049B86E50ED052B /* Pods_UCRouterObjc_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F17A61E3AC2881CB89FC0C4175B0201 /* Pods-UCRouterObjc_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2B5E8255DD47944BD81CA79D8DB1B2 /* Build configuration list for PBXNativeTarget "Pods-UCRouterObjc_Tests" */;
+			buildPhases = (
+				607F655BDFB3FBC5BDB470EB22DF0189 /* Headers */,
+				8BDF12FFBF4D42FEF97A7E529032C40D /* Sources */,
+				616DAA0ED625AF15C3EC1DD9BC54335F /* Frameworks */,
+				0E47304C6F71930E783F03FF344A91EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CFB2004872A98E8AE3193B9C7F00941 /* PBXTargetDependency */,
+			);
+			name = "Pods-UCRouterObjc_Tests";
+			productName = "Pods-UCRouterObjc_Tests";
+			productReference = 2FCC31E24415AECC5E669EDE5A0D74F4 /* Pods_UCRouterObjc_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95A88F47B573BEF5E391356807B5FA1A /* UCRouterObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A97B13633F687B2EB49A612584734A /* Build configuration list for PBXNativeTarget "UCRouterObjc" */;
+			buildPhases = (
+				8EFA25B041926A0AD186435AD2FB36B3 /* Headers */,
+				50FDC3CA99B6622B743227DEEE0A4526 /* Sources */,
+				8BA1DDFD187D14E42DB155540609EBF2 /* Frameworks */,
+				9A0D26CA848A23DBC51A45529D2B579E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCRouterObjc;
+			productName = UCRouterObjc;
+			productReference = C13F3CC9EB51906DF95C25E0F509650A /* UCRouterObjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UC;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4ACBA70FF647B84CE3BD944DEB0AA07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D566E27628582C8B28993D9F7B55A3 /* Pods-UCRouterObjc_Example */,
+				7F17A61E3AC2881CB89FC0C4175B0201 /* Pods-UCRouterObjc_Tests */,
+				95A88F47B573BEF5E391356807B5FA1A /* UCRouterObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E47304C6F71930E783F03FF344A91EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0D26CA848A23DBC51A45529D2B579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CD441C6E65B40B0077C597817B7CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FDC3CA99B6622B743227DEEE0A4526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC38F9F4CD139825D5A9FB06D4CF8972 /* UCRouterObjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDF12FFBF4D42FEF97A7E529032C40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB362E7DCB31E8013EC799DFC45658A4 /* Pods-UCRouterObjc_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A370230856DDCF280DDC4FA755A519FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AE9E7739ED1D67FA64BF4129B1AA7B /* Pods-UCRouterObjc_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CFB2004872A98E8AE3193B9C7F00941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UCRouterObjc_Example";
+			target = 50D566E27628582C8B28993D9F7B55A3 /* Pods-UCRouterObjc_Example */;
+			targetProxy = 7E19C551B154F7D990F09073F146E837 /* PBXContainerItemProxy */;
+		};
+		8B0FBE6F2F16D971669FD0B8DBBEA915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UCRouterObjc;
+			target = 95A88F47B573BEF5E391356807B5FA1A /* UCRouterObjc */;
+			targetProxy = 7C002DBA3B875F1D0855CE6C57FF5B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		13644F5B5FBCEFF4EC771A41F420BA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B51D23D9011B30B4C589D7569F2080 /* Pods-UCRouterObjc_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRouterObjc_Tests/Pods-UCRouterObjc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRouterObjc_Tests/Pods-UCRouterObjc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AFD028D76DF98CE8BA8524B23E81588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B88EBA6D2EB3DCD037AF798D6E50822 /* Pods-UCRouterObjc_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRouterObjc_Tests/Pods-UCRouterObjc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRouterObjc_Tests/Pods-UCRouterObjc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		512D39746EBCCE40D0DB7FB32433CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553F5B53E955B950BFC05162582216C5 /* Pods-UCRouterObjc_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRouterObjc_Example/Pods-UCRouterObjc_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRouterObjc_Example/Pods-UCRouterObjc_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79608324F9008EF175CD8701B8A70F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9D9FAA3F09CA9FD122B3BE67C03210 /* UCRouterObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UCRouterObjc/UCRouterObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UCRouterObjc/UCRouterObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UCRouterObjc/UCRouterObjc.modulemap";
+				PRODUCT_MODULE_NAME = UCRouterObjc;
+				PRODUCT_NAME = UCRouterObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ACF18CF891987A2A8EDDD96357B19D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9D9FAA3F09CA9FD122B3BE67C03210 /* UCRouterObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UCRouterObjc/UCRouterObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UCRouterObjc/UCRouterObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UCRouterObjc/UCRouterObjc.modulemap";
+				PRODUCT_MODULE_NAME = UCRouterObjc;
+				PRODUCT_NAME = UCRouterObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECBC4830D5ECB1AE52EA6C999A1BCDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B22F4EA0CE638E9377E786678136B84 /* Pods-UCRouterObjc_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRouterObjc_Example/Pods-UCRouterObjc_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRouterObjc_Example/Pods-UCRouterObjc_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2B5E8255DD47944BD81CA79D8DB1B2 /* Build configuration list for PBXNativeTarget "Pods-UCRouterObjc_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFD028D76DF98CE8BA8524B23E81588 /* Debug */,
+				13644F5B5FBCEFF4EC771A41F420BA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92574D781AAC03315E2C7D4D7F5D0F30 /* Build configuration list for PBXNativeTarget "Pods-UCRouterObjc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512D39746EBCCE40D0DB7FB32433CAB5 /* Debug */,
+				ECBC4830D5ECB1AE52EA6C999A1BCDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A97B13633F687B2EB49A612584734A /* Build configuration list for PBXNativeTarget "UCRouterObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79608324F9008EF175CD8701B8A70F3E /* Debug */,
+				7ACF18CF891987A2A8EDDD96357B19D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
