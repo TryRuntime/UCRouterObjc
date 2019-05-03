@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 注册url
 - (void)registWithUrlStr:(nonnull NSString *)urlStr
-  viewControllerCallBack:(nullable UIViewController* (^)(UCRouterInfo * nonnull))viewControllerCallBack;
+  viewControllerCallBack:(UIViewController* (^)(UCRouterInfo *routerInfo))viewControllerCallBack;
 
 /// 路由派发
 - (void)routeUrlStr:(nonnull NSString *)urlStr

@@ -16,15 +16,22 @@
     NSString *decodeUrlStr = [[urlStr stringByRemovingPercentEncoding] stringByRemovingPercentEncoding];
     NSString *encodeUrlStr = [decodeUrlStr stringByAddingPercentEncodingWithAllowedCharacters:NSCharacterSet.URLQueryAllowedCharacterSet];
     
+    NSURL *url = [[NSURL alloc] initWithString:encodeUrlStr];
+    if (url == nil) {return nil;}
+    
     // 拼接url
     for (NSString *key in params.allKeys) {
         NSString *value = params[key];
-        encodeUrlStr = [NSString stringWithFormat:@"%@&%@=%@", encodeUrlStr, key, value];
+        
+        if (url.query == nil) {
+            encodeUrlStr = [NSString stringWithFormat:@"%@?%@=%@", encodeUrlStr, key, value];
+        } else {
+            encodeUrlStr = [NSString stringWithFormat:@"%@&%@=%@", encodeUrlStr, key, value];
+        }
+        url = [[NSURL alloc] initWithString:encodeUrlStr];
     }
 
     // 获取注册的urlKey
-    NSURL *url = [[NSURL alloc] initWithString:encodeUrlStr];
-    if (url == nil) {return nil;}
     NSString *urlPath = url.path.length > 1 ? url.path : @"";
     NSString *routerKey = [NSString stringWithFormat:@"%@%@", url.host, urlPath];
 
@@ -44,7 +51,7 @@
                       host:url.host
                       path:url.path
                      query:decodeParams
-              decodeUrlStr:decodeUrlStr];
+              encodeUrlStr:encodeUrlStr];
 
     return routerInfo;
 }
@@ -67,7 +74,7 @@
 @property(nonatomic, copy, readwrite) NSString *urlHost;
 @property(nonatomic, copy, readwrite) NSString *urlPath;
 @property(nonatomic, copy, readwrite) NSDictionary<NSString *, NSString *> *urlQuery;
-@property(nonatomic, copy, readwrite) NSString *decodeUrlStr;
+@property(nonatomic, copy, readwrite) NSString *encodeUrlStr;
 
 @end
 
@@ -86,18 +93,18 @@
     _urlHost = nil;
     _urlPath = nil;
     _urlQuery = nil;
-    _decodeUrlStr = nil;
+    _encodeUrlStr = nil;
 }
 
 - (void)setUrlInfo:(NSString *)scheme
               host:(NSString *)host
               path:(NSString *)path
              query:(NSDictionary<NSString *,NSString *> *)query
-      decodeUrlStr:(NSString *)decodeUrlStr {
+      encodeUrlStr:(NSString *)encodeUrlStr {
     _urlScheme = scheme;
     _urlHost = host;
     _urlPath = path;
     _urlQuery = query;
-    _decodeUrlStr = decodeUrlStr;
+    _encodeUrlStr = encodeUrlStr;
 }
 @end

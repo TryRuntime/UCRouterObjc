@@ -18,14 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 在初始化之后不应该更改二者的值
 - (instancetype)initRegistUrlStr:(NSString *)urlStr
-          viewControllerCallBack:(nullable UIViewController* (^)(UCRouterInfo * nonnull))viewControllerCallBack;
+          viewControllerCallBack:(UIViewController* (^)(UCRouterInfo *))viewControllerCallBack;
 
 /// URL解码后的信息
 @property(nonatomic, copy, readonly) NSString *urlScheme;
 @property(nonatomic, copy, readonly) NSString *urlHost;
 @property(nonatomic, copy, readonly) NSString *urlPath;
 @property(nonatomic, copy, readonly) NSDictionary<NSString *, NSString *> *urlQuery;
-@property(nonatomic, copy, readonly) NSString *decodeUrlStr;
+@property(nonatomic, copy, readonly) NSString *encodeUrlStr;
 
 /// 清除上面的url解码信息
 - (void)clearUrlInfo;
@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
               host:(NSString *)host
               path:(NSString *)path
              query:(NSDictionary<NSString *, NSString*> *)query
-      decodeUrlStr:(NSString *)decodeUrlStr;
+      encodeUrlStr:(NSString *)encodeUrlStr;
 @end
 
 @interface UCRouterUrlParser : NSObject

@@ -18,14 +18,13 @@ typedef NS_ENUM(NSInteger, UCNavgationType) {
 };
 
 @protocol UCRouterable <NSObject>
-
-+ (nonnull id<UCRouterable>)getProtocolInstance;
-- (void)register;
+@required
+- (void)registerRouter;
 
 @end
 
 @protocol UCRouterUrlFilterable <NSObject>
-
+@required
 - (BOOL)shouldOpenRouter:(UCRouterInfo *)routerInfo
       jumpViewController:(UIViewController *)jumpViewController
            navgationType:(UCNavgationType)navgationType;
@@ -33,7 +32,7 @@ typedef NS_ENUM(NSInteger, UCNavgationType) {
 @end
 
 @protocol UCRouterNavgationable <NSObject>
-
+@required
 - (void)pushViewController:(UIViewController *)viewController
                   animated:(BOOL)animated;
 - (void)presentViewController:(UIViewController *)viewControllerToPresent

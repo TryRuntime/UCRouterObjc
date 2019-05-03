@@ -49,8 +49,10 @@ static inline void initProtocolMDict() {
 
 - (void)registProtocolAndProvider:(nonnull Protocol<UCRouterable> *)protocol
                          provider:(nonnull id<UCRouterable>)provider {
-    if (protocol != nil && provider != nil && [provider conformsToProtocol:@protocol(UCRouterable)])
+    if (protocol != nil && provider != nil && [provider conformsToProtocol:@protocol(UCRouterable)]) {
         _protocolMDict[NSStringFromProtocol(protocol)] = provider;
+        [provider registerRouter];
+    }
 }
 
 - (nullable id<UCRouterable>)getProviderWithProtocol:(nonnull Protocol<UCRouterable> *)protocol {
@@ -59,7 +61,7 @@ static inline void initProtocolMDict() {
 }
 
 - (void)registWithUrlStr:(nonnull NSString *)urlStr
-  viewControllerCallBack:(nullable UIViewController* (^)(UCRouterInfo * nonnull))viewControllerCallBack {
+  viewControllerCallBack:(UIViewController* (^)(UCRouterInfo *routerInfo))viewControllerCallBack {
     UCRouterInfo *routerInfo = [[UCRouterInfo alloc] initRegistUrlStr:urlStr
                                                viewControllerCallBack:viewControllerCallBack];
     _routerInfoMDict[urlStr] = routerInfo;
@@ -84,12 +86,16 @@ static inline void initProtocolMDict() {
     switch (navgationType) {
         case pushWithAnimation:
             [_navgationDelegate pushViewController:vc animated:YES];
+            break;
         case pushWithNoAnimation:
             [_navgationDelegate pushViewController:vc animated:NO];
+            break;
         case presentWithAnimation:
             [_navgationDelegate presentViewController:vc animated:YES completion:nil];
+            break;
         case presentWithNoAnimation:
             [_navgationDelegate presentViewController:vc animated:NO completion:nil];
+            break;
     }
 }
 @end
